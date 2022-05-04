@@ -91,3 +91,9 @@ While this may improve the precision of the algorithm, the relationship with the
 # Code Execution
 
 To execute code please run the notebook file "main.ipynb"
+
+Dataset: 
+https://github.com/TuSimple/tusimple-benchmark/issues/3
+
+Class Labels: 
+https://github.com/fabvio/TuSimple-lane-classes
