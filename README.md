@@ -1,4 +1,4 @@
-# Line_and-crack_Detection-
+# Line and Crack Detection-
 ## Project for Deep Learning Class
 
 ### Introduction:
@@ -85,3 +85,9 @@ While this may improve the precision of the algorithm, the relationship with the
 [9] Kim, J., Park, C.: End-to-end ego lane estimation based on sequential transfer learning for self-driving cars. In: Proceedings of the IEEE CVPR Workshops. (2017) 
 
 [10] https://www.linkedin.com/pulse/tusimple-announces-worlds-first-autonomous-benchmark-dataset-stevens
+
+
+
+# Code Execution
+
+To execute code please run the notebook file "main.ipynb"
