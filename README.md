@@ -26,12 +26,12 @@ TuSimple dataset is used for lane detection. It is consists of 6408 1280×720 ro
 
 
 ### Results: 
-#### Lane Detection 
+#### Lane Detection-
 
 ![image](https://user-images.githubusercontent.com/104802856/166630719-493dbd84-84cd-4d17-92e4-6f2cf44a2486.png)
 ![image](https://user-images.githubusercontent.com/104802856/166630733-9b029bac-ce61-46eb-a7ec-0d9e7a2ef2bf.png)
 
-#### Crack Detection 
+#### Crack Detection-
 
 The table below tracks the accuracy at which cracks are identified. It tracks False Positives (FP), True Positives (TP) and False Negatives (FN), as well a True Negatives (TN) 
 
@@ -51,6 +51,37 @@ The table below tracks the accuracy at which cracks are identified. It tracks Fa
 ![image](https://user-images.githubusercontent.com/104802856/166630928-70581849-a267-4b3f-ac88-8a97f3a2b430.png)
 ![image](https://user-images.githubusercontent.com/104802856/166630945-9a42c1c1-1bc9-4bd7-831a-620cd91caf07.png)
 
-### Conclusion 
+### Conclusion:
 We have successfully implemented Lane detection and further added crack detection feature in it (with the accuracy of 88% and F1 score 0.90).
 The number of FN and FP is high because we used 10 epochs (a hyperparameter that defines the number of times that the algorithm will work through the entire training dataset). This impacts the precision of the algorithm as TP/(TP+FP). The graphs bellow shows the increase of the precision as the epoch increase. It also depends on the size of the architecture i.e., a much more advanced CNN.
+
+### Future:
+To further improve the crack algorithm effectiveness a few suggestions are: 
+
+- Increase the epoch which will increase the time to train the model as well as demand more computational power.
+- The use more layers in the network and/or use large dataset. 
+- Image augmentation. Pre-process the image before training the model. 
+
+While this may improve the precision of the algorithm, the relationship with the output or precision is not linear, as there can be a threshold when the result stop getting better. 
+
+### References:
+
+[1] Tian, Y., Gelernter, J., Wang, X., Chen, W., Gao, J., Zhang, Y., Li, X.: Lane marking detection via deep convolutional neural network. Neurocomputing (2018) 
+
+[2] Bai, M., Mattyus, G., Homayounfar, N., Wang, S., Lakshmikanth, S.K., Urtasun, R.: Deep multi-sensor lane detection. In: 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). (2018) 
+
+[3] Chen, P., Lo, S., Hang, H., Chan, S., Lin, J.: Efficient road lane marking detection with deep learning. CoRR abs/1809.03994 (2018) 
+
+[4] Tian, Y., Gelernter, J., Wang, X., Chen, W., Gao, J., Zhang, Y., Li, X.: Lane marking detection via deep convolutional neural network. Neurocomputing (2018) 
+
+[5] Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: Towards real-time object detection with region proposal networks. In: Advances in NIPS. (2015) 
+
+[6] Neven, D., De Brabandere, B., Georgoulis, S., Proesmans, M., Van Gool, L.: Towards end-to-end lane detection: an instance segmentation approach. In: 2018 IEEE Intelligent Vehicles Symposium (IV), IEEE (2018) 286–291 
+
+[7] Pan, X., Shi, J., Luo, P., Wang, X., Tang, X.: Spatial as deep: Spatial cnn for traffic scene understanding. In: 32nd AAAI Conference on Artificial Intelligence. (2018) 
+
+[8] Zhang, J., Xu, Y., Ni, B., Duan, Z.: Geometric constrained joint lane segmentation and lane boundary detection. In: ECCV. (2018) 486–502 
+
+[9] Kim, J., Park, C.: End-to-end ego lane estimation based on sequential transfer learning for self-driving cars. In: Proceedings of the IEEE CVPR Workshops. (2017) 
+
+[10] https://www.linkedin.com/pulse/tusimple-announces-worlds-first-autonomous-benchmark-dataset-stevens
