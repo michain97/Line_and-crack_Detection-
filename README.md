@@ -97,3 +97,19 @@ https://github.com/TuSimple/tusimple-benchmark/issues/3
 
 Class Labels: 
 https://github.com/fabvio/TuSimple-lane-classes
+
+# Lane Detection steps (No data set needed for this algorithm, as it is pretrained)
+
+- Make sure you have a GPU GeForce GTX 1060 or later
+- Download Jupyter Notebook (Latest Version)
+- Pytorch 1.7.1
+- Download the folder “Line_and-crack_Detection--main”
+- Launch Jupyter and open python file “video_main”
+- Select run and run all
+- If you have another video file that you wish to perform line detection on, you simply need to save the video to the “Line_and-crack_Detection—main” folder and change the name of the video file from “project_video.mp4” in the “video_main” file to the new video name that you copied in the folder. Check figure bellow.
+
+![image](https://user-images.githubusercontent.com/104802856/166853466-d584e669-8829-4ae6-8c40-3b1d1c7fa27b.png)
+
+- The output video with the shoulder lanes marked will launch automatically, and will be saved as “output_video”
+
+
