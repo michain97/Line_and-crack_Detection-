@@ -90,13 +90,19 @@ While this may improve the precision of the algorithm, the relationship with the
 
 # Code Execution
 
-To execute code please run the notebook file "main.ipynb"
+- To execute Lane detection code, please run the notebook file "main.ipynb"
+- To execute Crack detection code, please run the notebook file "Crack_Detection.ipynb"
 
-Dataset: 
+Dataset:
+
+Lane Detection Dataset:
 https://github.com/TuSimple/tusimple-benchmark/issues/3
 
-Class Labels: 
+Lane Detection Class Labels: 
 https://github.com/fabvio/TuSimple-lane-classes
+
+Crack Detection:
+https://drive.google.com/file/d/1YynE4aZTxJmMMS-vLeQnY9mewjULGHBs/view?usp=sharing
 
 # Lane Detection steps (No data set needed for this algorithm, as it is pretrained)
 
