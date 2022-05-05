@@ -103,7 +103,8 @@ https://github.com/fabvio/TuSimple-lane-classes
 Crack Detection Dataset:
 https://drive.google.com/file/d/1YynE4aZTxJmMMS-vLeQnY9mewjULGHBs/view?usp=sharing
 
-# Lane Detection steps (No data set needed for this algorithm, as it is pretrained)
+# Lane Detection steps:
+No data set needed for executing this algorithm, as it is pretrained
 
 - Make sure you have a GPU GeForce GTX 1060 or later
 - Download Jupyter Notebook (Latest Version)
